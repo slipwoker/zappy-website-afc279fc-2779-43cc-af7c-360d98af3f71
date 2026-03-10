@@ -4337,6 +4337,214 @@ nav.navbar .sub-menu li a:hover { color: var(--nav-text-hover, #C08497) !importa
 /* === NAVBAR STYLE OVERRIDES END === */
 
 
+/* ═══════════════════════════════════════════════════════════
+   V2 REGENERATED SECTION CSS (בית-stats)
+   Added: 2026-03-10T12:11:47.524Z
+   ═══════════════════════════════════════════════════════════ */
+.index-stats-section {
+  position: relative;
+  background: #FAF4EC;
+  padding: 80px 16px;
+  overflow: visible;
+  color: var(--text-dark);
+}
+
+.index-stats-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.index-stats-section__header {
+  text-align: center;
+  margin-bottom: 60px;
+  max-width: 800px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+.index-stats-section__title {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+}
+
+.index-stats-section__intro {
+  font-family: 'Assistant', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-dark);
+  opacity: 0.85;
+}
+
+.index-stats-section__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+.index-stats-section__card {
+  background: #FFFFFF;
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  padding: 32px 24px;
+  text-align: right;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(69, 6, 46, 0.04);
+}
+
+.index-stats-section__card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(43, 42, 39, 0.12);
+  border-color: var(--secondary);
+}
+
+.index-stats-section__card-icon {
+  width: 48px;
+  height: 48px;
+  margin-inline-start: auto;
+  margin-bottom: 20px;
+  color: var(--primary);
+}
+
+.index-stats-section__card-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.index-stats-section__card-title {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+}
+
+.index-stats-section__card-text {
+  font-family: 'Assistant', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-dark);
+  opacity: 0.8;
+}
+
+.index-stats-section__principles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 32px;
+  background: rgba(192, 132, 151, 0.08);
+  border-radius: 8px;
+  border: 1px solid rgba(192, 132, 151, 0.2);
+}
+
+.index-stats-section__principle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: right;
+}
+
+.index-stats-section__principle-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  color: var(--secondary);
+  order: 2;
+}
+
+.index-stats-section__principle-text {
+  font-family: 'Assistant', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-dark);
+  order: 1;
+  flex: 1;
+}
+
+.index-stats-section__decorative-element {
+  position: absolute;
+  top: 40px;
+  left: 5%;
+  width: 200px;
+  height: 200px;
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 0;
+  color: var(--secondary);
+}
+
+.index-stats-section__decorative-element svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .index-stats-section {
+    padding: 60px 16px;
+  }
+
+  .index-stats-section__header {
+    margin-bottom: 40px;
+  }
+
+  .index-stats-section__title {
+    font-size: 28px;
+  }
+
+  .index-stats-section__grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+
+  .index-stats-section__card {
+    padding: 24px 20px;
+  }
+
+  .index-stats-section__card-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 16px;
+  }
+
+  .index-stats-section__card-title {
+    font-size: 20px;
+  }
+
+  .index-stats-section__principles {
+    padding: 24px 20px;
+    gap: 12px;
+  }
+
+  .index-stats-section__principle-text {
+    font-size: 15px;
+  }
+
+  .index-stats-section__decorative-element {
+    width: 120px;
+    height: 120px;
+    top: 20px;
+    left: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .index-stats-section__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */

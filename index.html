@@ -234,6 +234,213 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-stats-section {
+  position: relative;
+  background: #FAF4EC;
+  padding: 80px 16px;
+  overflow: visible;
+  color: var(--text-dark);
+}
+
+.index-stats-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.index-stats-section__header {
+  text-align: center;
+  margin-bottom: 60px;
+  max-width: 800px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+.index-stats-section__title {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+}
+
+.index-stats-section__intro {
+  font-family: 'Assistant', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-dark);
+  opacity: 0.85;
+}
+
+.index-stats-section__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+.index-stats-section__card {
+  background: #FFFFFF;
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  padding: 32px 24px;
+  text-align: right;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(69, 6, 46, 0.04);
+}
+
+.index-stats-section__card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(43, 42, 39, 0.12);
+  border-color: var(--secondary);
+}
+
+.index-stats-section__card-icon {
+  width: 48px;
+  height: 48px;
+  margin-inline-start: auto;
+  margin-bottom: 20px;
+  color: var(--primary);
+}
+
+.index-stats-section__card-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.index-stats-section__card-title {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+}
+
+.index-stats-section__card-text {
+  font-family: 'Assistant', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-dark);
+  opacity: 0.8;
+}
+
+.index-stats-section__principles {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 32px;
+  background: rgba(192, 132, 151, 0.08);
+  border-radius: 8px;
+  border: 1px solid rgba(192, 132, 151, 0.2);
+}
+
+.index-stats-section__principle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: right;
+}
+
+.index-stats-section__principle-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  color: var(--secondary);
+  order: 2;
+}
+
+.index-stats-section__principle-text {
+  font-family: 'Assistant', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-dark);
+  order: 1;
+  flex: 1;
+}
+
+.index-stats-section__decorative-element {
+  position: absolute;
+  top: 40px;
+  left: 5%;
+  width: 200px;
+  height: 200px;
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 0;
+  color: var(--secondary);
+}
+
+.index-stats-section__decorative-element svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .index-stats-section {
+    padding: 60px 16px;
+  }
+
+  .index-stats-section__header {
+    margin-bottom: 40px;
+  }
+
+  .index-stats-section__title {
+    font-size: 28px;
+  }
+
+  .index-stats-section__grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+
+  .index-stats-section__card {
+    padding: 24px 20px;
+  }
+
+  .index-stats-section__card-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 16px;
+  }
+
+  .index-stats-section__card-title {
+    font-size: 20px;
+  }
+
+  .index-stats-section__principles {
+    padding: 24px 20px;
+    gap: 12px;
+  }
+
+  .index-stats-section__principle-text {
+    font-size: 15px;
+  }
+
+  .index-stats-section__decorative-element {
+    width: 120px;
+    height: 120px;
+    top: 20px;
+    left: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .index-stats-section__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -317,16 +524,16 @@
 
   <nav class="navbar" dir="rtl" style="">
   <button class="mobile-toggle" id="mobileToggle" aria-label="תפריט" data-element-type="button" data-element-id="btn-1773106589597-sx4yg0pf9" data-native-element="true" style="">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="width: 24px !important; height: 24px !important; display: block !important;">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="width: 24px !important; height: 24px !important; display: block !important;">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none !important; width: 24px !important; height: 24px !important;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none !important; width: 24px !important; height: 24px !important;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
   <button class="phone-header-btn" aria-label="התקשר" data-element-type="button" data-element-id="btn-1773106589597-pwry5rmji" data-native-element="true" style="">
-    <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" style="width: 24px; height: 24px;">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="width: 24px; height: 24px;">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -807,7 +1014,7 @@
   
   <!-- Bottom Wave Divider (z-index: 5) -->
   <div class="index-hero-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,120 L0,50 Q100,35 200,48 T400,42 Q500,50 600,38 T800,45 Q900,40 1000,50 T1200,45 L1200,120 Z" fill="#45062E"></path>
     </svg>
   </div>
@@ -868,9 +1075,9 @@
   </div>
 
   <div class="index-services-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 40" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <pattern id="perforated-edge" x="0" y="0" width="40" height="40" patternunits="userSpaceOnUse">
+        <pattern id="perforated-edge" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
           <circle cx="20" cy="0" r="8" fill="var(--bg-dark)"></circle>
         </pattern>
       </defs>
@@ -940,7 +1147,7 @@
   </div>
   
   <div class="index-process-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,60 L0,30 L1200,45 L1200,60 Z" fill="#F6EFE6"></path>
       <line x1="0" y1="30" x2="1200" y2="45" stroke="var(--border-dark)" stroke-width="1" opacity="0.3"></line>
     </svg>
@@ -975,12 +1182,12 @@
   </div>
 
   <div class="index-philosophy-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="philosophy-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="philosophy-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#EAE2B7;stop-opacity:1"></stop>
           <stop offset="100%" style="stop-color:#E5DAAE;stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <path d="M0,60 L0,30 Q150,25 300,32 T600,28 Q750,32 900,26 T1200,30 L1200,60 Z" fill="var(--bg-dark)"></path>
       <path d="M0,30 Q150,25 300,32 T600,28 Q750,32 900,26 T1200,30" stroke="var(--border-light)" stroke-width="1" fill="var(--bg-dark)" opacity="0.5"></path>
@@ -990,51 +1197,98 @@
 
 
 
-<section id="stats" class="index-stats-section" data-layout-spec="בית-stats">
-  <div class="index-stats-container">
-    <div class="index-stats-header">
-      <h2>אמון, בנוי על שיטה</h2>
-      <p>תהליך הטיפול שלי מבוסס על שאילת שאלות מעמיקה, פענוח הקשרים אישיים וליווי מתמשך. כל תוכנית טיפול בנויה על הבנת השורשים האמיתיים ומותאמת למחזור החיים והחודשי שלך.</p>
+<section class="index-stats-section" data-layout-spec="בית-stats" data-zappy-section="true" id="stats">
+  <div class="index-stats-section__container">
+    <div class="index-stats-section__header">
+      <h2 class="index-stats-section__title">אמון, בנוי על שיטה</h2>
+      <p class="index-stats-section__intro">תהליך הטיפול שלי מבוסס על שאילת שאלות מעמיקה, פענוח הקשרים אישיים וליווי מתמשך. כל תוכנית טיפול בנויה על הבנת השורשים האמיתיים ומותאמת למחזור החיים והחודשי שלך.</p>
     </div>
 
-    <div class="index-stats-grid">
-      <div class="index-stats-tile">
-        <h3>שיחת צריכה מעמיקה</h3>
-        <p>תהליך קבלה מקיף ומפורט שבודק כל היבט רלוונטי בהיסטוריה הרפואית והחיים שלך, כדי לבנות תמונה שלמה.</p>
+    <div class="index-stats-section__grid">
+      <div class="index-stats-section__card">
+        <div class="index-stats-section__card-icon" data-element-type="icon" data-icon-type="svg">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 4C12.95 4 4 12.95 4 24C4 35.05 12.95 44 24 44C35.05 44 44 35.05 44 24C44 12.95 35.05 4 24 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M24 16V24L30 27" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+        <h3 class="index-stats-section__card-title">שיחת צריכה מעמיקה</h3>
+        <p class="index-stats-section__card-text">תהליך קבלה מקיף ומפורט שבודק כל היבט רלוונטי בהיסטוריה הרפואית והחיים שלך, כדי לבנות תמונה שלמה.</p>
       </div>
 
-      <div class="index-stats-tile">
-        <h3>תוכנית מותאמת אישית</h3>
-        <p>כל המלצה מותאמת למחזור החודשי שלך, לשלב החיים בו את נמצאת ולצרכים הייחודיים של גופך.</p>
+      <div class="index-stats-section__card">
+        <div class="index-stats-section__card-icon" data-element-type="icon" data-icon-type="svg">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 24H42" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M24 6V42" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2"></circle>
+            <path d="M14 18L24 24L34 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+        <h3 class="index-stats-section__card-title">תוכנית מותאמת אישית</h3>
+        <p class="index-stats-section__card-text">כל המלצה מותאמת למחזור החודשי שלך, לשלב החיים בו את נמצאת ולצרכים הייחודיים של גופך.</p>
       </div>
 
-      <div class="index-stats-tile">
-        <h3>מבנה מעקב ברור</h3>
-        <p>פגישות מעקב קבועות עם התאמות לפי התקדמות, כדי להבטיח שהתהליך משרת אותך באופן מיטבי.</p>
+      <div class="index-stats-section__card">
+        <div class="index-stats-section__card-icon" data-element-type="icon" data-icon-type="svg">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="10" width="32" height="32" rx="2" stroke="currentColor" stroke-width="2"></rect>
+            <path d="M8 18H40" stroke="currentColor" stroke-width="2"></path>
+            <path d="M16 6V14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M32 6V14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="16" cy="26" r="1.5" fill="currentColor"></circle>
+            <circle cx="24" cy="26" r="1.5" fill="currentColor"></circle>
+            <circle cx="32" cy="26" r="1.5" fill="currentColor"></circle>
+            <circle cx="16" cy="34" r="1.5" fill="currentColor"></circle>
+            <circle cx="24" cy="34" r="1.5" fill="currentColor"></circle>
+          </svg>
+        </div>
+        <h3 class="index-stats-section__card-title">מבנה מעקב ברור</h3>
+        <p class="index-stats-section__card-text">פגישות מעקב קבועות עם התאמות לפי התקדמות, כדי להבטיח שהתהליך משרת אותך באופן מיטבי.</p>
       </div>
 
-      <div class="index-stats-tile">
-        <h3>טיפול בשורש הבעיה</h3>
-        <p>התייחסות לתשתיות הבסיסיות: שינה, ניהול מתח ועיכול כנקודת מוצא לכל תהליך ריפוי.</p>
+      <div class="index-stats-section__card">
+        <div class="index-stats-section__card-icon" data-element-type="icon" data-icon-type="svg">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 4C24 4 14 9 14 18C14 24.627 18.373 30 24 30C29.627 30 34 24.627 34 18C34 9 24 4 24 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M24 30V44" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M18 38H30" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="24" cy="18" r="4" stroke="currentColor" stroke-width="2"></circle>
+          </svg>
+        </div>
+        <h3 class="index-stats-section__card-title">טיפול בשורש הבעיה</h3>
+        <p class="index-stats-section__card-text">התייחסות לתשתיות הבסיסיות: שינה, ניהול מתח ועיכול כנקודת מוצא לכל תהליך ריפוי.</p>
       </div>
     </div>
 
-    <div class="index-stats-trust-signals">
-      <div class="index-stats-trust-chip">
-        <p>סודיות מלאה וכבוד לתהליך האישי שלך</p>
+    <div class="index-stats-section__principles">
+      <div class="index-stats-section__principle">
+        <svg class="index-stats-section__principle-icon" data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <span class="index-stats-section__principle-text">סודיות מלאה וכבוד לתהליך האישי שלך</span>
       </div>
-      <div class="index-stats-trust-chip">
-        <p>עבודה צמחית מבוססת מחקר ומקורות מהימנים</p>
+      <div class="index-stats-section__principle">
+        <svg class="index-stats-section__principle-icon" data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <span class="index-stats-section__principle-text">עבודה צמחית מבוססת מחקר ומקורות מהימנים</span>
       </div>
-      <div class="index-stats-trust-chip">
-        <p>שיתוף פעולה מלא עם רפואה קונבנציונלית</p>
+      <div class="index-stats-section__principle">
+        <svg class="index-stats-section__principle-icon" data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <span class="index-stats-section__principle-text">שיתוף פעולה מלא עם רפואה קונבנציונלית</span>
       </div>
     </div>
   </div>
 
-  <div class="index-stats-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 80" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,45 Q100,35 200,42 T400,38 Q500,45 600,40 T800,42 Q900,38 1000,45 T1200,40 L1200,80 Z" fill="#F6EFE6"></path>
+  <div class="index-stats-section__decorative-element" aria-hidden="true">
+    <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="80" stroke="currentColor" stroke-width="0.5" opacity="0.3"></circle>
+      <circle cx="100" cy="100" r="60" stroke="currentColor" stroke-width="0.5" opacity="0.25"></circle>
+      <circle cx="100" cy="100" r="40" stroke="currentColor" stroke-width="0.5" opacity="0.2"></circle>
+      <circle cx="100" cy="100" r="20" stroke="currentColor" stroke-width="0.5" opacity="0.15"></circle>
     </svg>
   </div>
 </section>
