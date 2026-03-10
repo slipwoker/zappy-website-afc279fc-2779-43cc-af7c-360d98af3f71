@@ -1,45 +1,35 @@
-# נעמית דגן - טבע הבריאה — Generative Engine Optimization Map
-
-> A naturopathic and clinical herbalist practice focused on women's holistic health, specializing in fertility, hormonal balance, and life transitions. The brand emphasizes deep-root healing through understanding the body's story, with a nurturing, feminine, and reassuring atmosphere. The practice views health as the foundation for flourishing in all aspects of life - fertility (in all senses), love, success, and full self-expression. The approach is investigative and compassionate, helping women decode their body's signals through comprehensive questioning, lab analysis, and personal history.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### בית
-https://-afc279fc.zappy5.app
+https://example.com
 מתמחה בפוריות טבעית, איזון הורמונלי ו-PCOS. טיפול צמחי קליני ונטורופתיה לנשים. גלי את סיפור גופך והתחילי במסע ריפוי עמוק לפריחה מלאה בכל תחומי החיים.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-afc279fc.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-afc279fc.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-afc279fc.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About נעמית דגן - טבע הבריאה
-A naturopathic and clinical herbalist practice focused on women's holistic health, specializing in fertility, hormonal balance, and life transitions. The brand emphasizes deep-root healing through understanding the body's story, with a nurturing, feminine, and reassuring atmosphere. The practice views health as the foundation for flourishing in all aspects of life - fertility (in all senses), love, success, and full self-expression. The approach is investigative and compassionate, helping women decode their body's signals through comprehensive questioning, lab analysis, and personal history.
-
-## Target Audience
-נשים המתמודדות עם אתגרי פוריות, חוסר איזון הורמונלי, גיל המעבר ובעיות בריאות נוספות
-
-## Industry
-בריאות טבעית ורפואה משלימה
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://-afc279fc.zappy5.app/sitemap.xml
-- **Robots.txt**: https://-afc279fc.zappy5.app/robots.txt
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
