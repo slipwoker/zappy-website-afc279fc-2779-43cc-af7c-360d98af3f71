@@ -4335,6 +4335,15 @@ nav.navbar .sub-menu li a:hover { color: var(--nav-text-hover, #C08497) !importa
 /* === NAVBAR STYLE OVERRIDES END === */
 
 
+/* Fix RTL alignment for bullet points, checkmarks/V icons, and numbered circles */
+.home-services-section ul li,
+.home-process-section ul li,
+.home-philosophy-section ul li,
+.home-stats-section ul li {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
