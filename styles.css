@@ -149,7 +149,7 @@
   --border-dark: #6a7484;
   --nav-bg: #FFFFFF;
   --nav-text: #4A4A4A;
-  --nav-text-hover: #865c6a;
+  --nav-text-hover: #45062E;
   
   --gradient-primary: linear-gradient(180deg, #B45B67 0%, #8F3F4B 100%);
   --gradient-goldShine: linear-gradient(110deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.55) 45%, rgba(255,255,255,0) 70%);
@@ -455,7 +455,7 @@ button {
 :root {
   --nav-bg: #FFFFFF;
   --nav-text: #4A4A4A;
-  --nav-text-hover: #865c6a;
+  --nav-text-hover: #45062E;
   --primary: #45062E;
   --secondary: #865c6a;
   --accent: #58675b;
@@ -695,7 +695,7 @@ button {
 :root {
   --nav-bg: #FFFFFF;
   --nav-text: #4A4A4A;
-  --nav-text-hover: #865c6a;
+  --nav-text-hover: #45062E;
   --primary: #45062E;
   --secondary: #865c6a;
   --accent: #58675b;
@@ -4185,6 +4185,8 @@ body.zappy-edit-mode .zappy-editable-video-bg {
 
 
 
+
+
 /* === NAVBAR STYLE OVERRIDES START === */
 .navbar { background-color: var(--nav-bg, #FFFFFF) !important; }
 .zappy-catalog-menu, #zappy-catalog-menu {}
@@ -4334,15 +4336,6 @@ nav.navbar .sub-menu li a:hover { color: var(--nav-text-hover, #C08497) !importa
 }
 /* === NAVBAR STYLE OVERRIDES END === */
 
-
-/* Fix RTL alignment for bullet points, checkmarks/V icons, and numbered circles */
-.home-services-section ul li,
-.home-process-section ul li,
-.home-philosophy-section ul li,
-.home-stats-section ul li {
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-}
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
