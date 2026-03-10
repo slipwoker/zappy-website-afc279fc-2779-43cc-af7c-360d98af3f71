@@ -808,54 +808,12 @@
   <!-- Bottom Wave Divider (z-index: 5) -->
   <div class="index-hero-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,120 L0,50 Q100,35 200,48 T400,42 Q500,50 600,38 T800,45 Q900,40 1000,50 T1200,45 L1200,120 Z" fill="var(--bg-light)"></path>
+      <path d="M0,120 L0,50 Q100,35 200,48 T400,42 Q500,50 600,38 T800,45 Q900,40 1000,50 T1200,45 L1200,120 Z" fill="#EAE2B7"></path>
     </svg>
   </div>
 </section>
 
-<section id="layout-1773106398152" class="layout-section hero-section" data-zappy-component="true" style="width: 100vw; margin-left: calc(-50vw + 50%); min-height: 500px; position: relative; display: flex; align-items: center; justify-content: center; direction: rtl; overflow: hidden; box-sizing: border-box;" data-component-id="hero-fullwidth-bg">
-  <!-- CSS override for hero background images and content elements - ensures correct styling -->
-  <style>
-    .hero-bg-container img.hero-background-image,
-    .hero-bg-container img[data-hero-background="true"] {
-      width: 100% !important;
-      height: 100% !important;
-      object-fit: cover !important;
-      object-position: center !important;
-      display: block !important;
-      max-width: none !important;
-      margin: 0 !important;
-      border-radius: 0 !important;
-    }
-    /* Ensure interactive elements in hero section are clickable */
-    #layout-1773106398152 button,
-    #layout-1773106398152 a,
-    #layout-1773106398152 .btn,
-    #layout-1773106398152 [class*="btn"],
-    #layout-1773106398152 [data-element-type="button"],
-    #layout-1773106398152 h1,
-    #layout-1773106398152 h2,
-    #layout-1773106398152 h3,
-    #layout-1773106398152 h4,
-    #layout-1773106398152 p {
-      pointer-events: auto !important;
-      position: relative;
-    }
-  </style>
-  <!-- Background Image Container - full bleed -->
-  <div class="hero-bg-container" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
-    <img data-placeholder="hero-bg-1773106398152" data-context="Hero background image for כותרת שלך כאן" data-zappy-editable-image="true" data-element-type="image" data-hero-background="true" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1920' height='800'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%2345062E;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23C08497;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='24' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3EHero Background Image%3C/text%3E%3C/svg%3E" alt="Hero background" style="width: 100%; height: 100%; object-fit: cover; object-position: center; cursor: pointer; display: block;" class="layout-placeholder-image zappy-editable-image hero-background-image">
-  </div>
-  
-  <!-- Dark Overlay for text readability (pointer-events: none allows clicking through to image) -->
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); z-index: 2; pointer-events: none;"></div>
-  
-  <!-- Content (pointer-events: none on container, auto on interactive elements via CSS above) -->
-  <div class="container" style="position: relative; z-index: 3; max-width: 1200px; width: 100%; margin: 0 auto; padding: 80px 1.5rem; text-align: center; pointer-events: none; box-sizing: border-box;">
-    <h1 style="font-size: 48px; font-weight: 700; color: #FFFFFF; margin-bottom: 20px; font-family: Frank Ruhl Libre, serif; text-shadow: 0 2px 4px rgba(0,0,0,0.3); pointer-events: auto;">כותרת שלך כאן</h1>
-    <h3 style="font-size: 24px; font-weight: 400; color: #FFFFFF; opacity: 0.9; max-width: 700px; margin: 0 auto; font-family: Frank Ruhl Libre, serif; text-shadow: 0 1px 2px rgba(0,0,0,0.3); pointer-events: auto;">כותרת משנה שלך כאן</h3>
-  </div>
-</section>
+
 
 
 
@@ -1019,10 +977,10 @@
   <div class="index-philosophy-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="philosophy-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="philosophy-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#EAE2B7;stop-opacity:1"></stop>
           <stop offset="100%" style="stop-color:#E5DAAE;stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <path d="M0,60 L0,30 Q150,25 300,32 T600,28 Q750,32 900,26 T1200,30 L1200,60 Z" fill="var(--bg-dark)"></path>
       <path d="M0,30 Q150,25 300,32 T600,28 Q750,32 900,26 T1200,30" stroke="var(--border-light)" stroke-width="1" fill="var(--bg-dark)" opacity="0.5"></path>
