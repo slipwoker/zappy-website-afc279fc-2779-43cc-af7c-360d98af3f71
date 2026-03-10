@@ -4344,6 +4344,312 @@ nav.navbar .sub-menu li a:hover { color: var(--nav-text-hover, #C08497) !importa
   justify-content: flex-end;
 }
 
+/* Added Component Styles */
+.bullet-points-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, var(--surface-color) 0%, #FFFFFF 100%);
+  font-family: 'Frank Ruhl Libre', serif;
+  direction: rtl;
+}
+
+.bullet-points-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bullet-points-section .section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.bullet-points-section .section-title {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.bullet-points-section .section-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary-color);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.bullet-points-section .content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+/* Bullet List Styles */
+.bullet-points-section .bullet-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.bullet-points-section .bullet-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-direction: row-reverse; /* This ensures number appears on the right */
+}
+
+.bullet-points-section .bullet-number {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--gradient-primary);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(69, 6, 46, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bullet-points-section .bullet-item:hover .bullet-number {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(69, 6, 46, 0.25);
+}
+
+.bullet-points-section .bullet-content {
+  flex: 1;
+  text-align: right;
+}
+
+.bullet-points-section .bullet-content h3 {
+  font-size: 1.375rem;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.bullet-points-section .bullet-content p {
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Features List */
+.bullet-points-section .features-list {
+  margin-top: 48px;
+  padding: 32px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.bullet-points-section .features-title {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 24px;
+  font-weight: 600;
+  text-align: right;
+}
+
+.bullet-points-section .feature-item {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #F0F0F0;
+  flex-direction: row-reverse; /* Checkmark on the right */
+}
+
+.bullet-points-section .feature-item:last-child {
+  border-bottom: none;
+}
+
+.bullet-points-section .feature-icon {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #B45B67 0%, #8F3F4B 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.bullet-points-section .feature-text {
+  flex: 1;
+  font-size: 1.0625rem;
+  color: var(--text-color);
+  text-align: right;
+  line-height: 1.5;
+}
+
+/* Image Column */
+.bullet-points-section .image-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.bullet-points-section .image-wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(69, 6, 46, 0.15);
+  position: relative;
+}
+
+.bullet-points-section .main-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+.bullet-points-section .main-image:hover {
+  transform: scale(1.02);
+}
+
+/* Stats Grid */
+.bullet-points-section .stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.bullet-points-section .stat-card {
+  background: white;
+  padding: 28px 20px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bullet-points-section .stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.bullet-points-section .stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+  line-height: 1;
+}
+
+.bullet-points-section .stat-label {
+  font-size: 1rem;
+  color: var(--text-secondary-color);
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .bullet-points-section .content-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .bullet-points-section .image-column {
+    order: -1; /* Image appears first on mobile */
+  }
+
+  .bullet-points-section .section-title {
+    font-size: 2rem;
+  }
+
+  .bullet-points-section .section-subtitle {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .bullet-points-section {
+    padding: 60px 16px;
+  }
+
+  .bullet-points-section .section-header {
+    margin-bottom: 40px;
+  }
+
+  .bullet-points-section .section-title {
+    font-size: 1.75rem;
+  }
+
+  .bullet-points-section .section-subtitle {
+    font-size: 1rem;
+  }
+
+  .bullet-points-section .bullet-item {
+    gap: 16px;
+  }
+
+  .bullet-points-section .bullet-number {
+    width: 40px;
+    height: 40px;
+    font-size: 1.125rem;
+  }
+
+  .bullet-points-section .bullet-content h3 {
+    font-size: 1.25rem;
+  }
+
+  .bullet-points-section .bullet-content p {
+    font-size: 0.9375rem;
+  }
+
+  .bullet-points-section .features-list {
+    padding: 24px;
+    margin-top: 32px;
+  }
+
+  .bullet-points-section .features-title {
+    font-size: 1.25rem;
+  }
+
+  .bullet-points-section .feature-text {
+    font-size: 1rem;
+  }
+
+  .bullet-points-section .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bullet-points-section .stat-number {
+    font-size: 2rem;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .bullet-points-section .bullet-number,
+  .bullet-points-section .stat-card,
+  .bullet-points-section .main-image {
+    transition: none;
+  }
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+  .bullet-points-section .bullet-number,
+  .bullet-points-section .feature-icon {
+    border: 2px solid currentColor;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
